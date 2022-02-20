@@ -1,0 +1,327 @@
+.pf {
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+	font-style: bold;
+	font-size: 25px;
+	padding: 10px 10px;
+}
+
+.menu {
+	float: right;
+	text-decoration: none;
+	color: black;
+	padding: 10px 10px;
+	font-family: Helvetica;
+	font-style: bold;
+	font-size: 13px;
+	text-align: center;
+	border-radius: 12px;
+
+}
+
+.cv {
+	float: right;
+	text-decoration: none;
+	padding: 10px 10px;
+	font-family: Helvetica;
+	font-style: bold;
+	font-size: 13px;
+	text-align: center;
+	background-color: mediumpurple;
+	color: whitesmoke;
+	border-radius: 12px;
+}
+
+.cv:hover {
+	color: black;
+	background-color: whitesmoke;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.menu:hover {
+	background-color: whitesmoke;
+}
+
+h1 {
+	text-align: center;
+	font-family: Helvetica;
+}
+
+h2 {
+	text-align: center;
+	font-family: Helvetica;
+}
+
+h3 {
+	text-align: center;
+	font-family: Helvetica;
+}
+
+p {
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.info {
+	background-color: mediumpurple;
+	padding: 10% 20%;
+	color: whitesmoke;
+}
+
+.skill1 {
+	position: relative;
+    width: 25%;
+    height: 20%;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+    background: white;
+    border-radius: 17px 0px 0px 17px;
+}
+
+.skill2 {
+	position: relative;
+    width: 25%;
+    height: 20%;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+    background: white;
+}
+
+.skill3 {
+	position: relative;
+    width: 25%;
+    height: 20%;
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+    background: white;
+    border-radius: 0px 17px 17px 0px;
+}
+
+ .skill1,.skill2,.skill3 {
+   display: inline-block;
+ }
+
+ .borders {
+   text-align: center;
+ }
+
+ .skillimg {
+ 	margin-top: 35px;
+ 	width: 27%;
+ 	color: mediumpurple;
+ }
+
+.pskill {
+	padding: 15px;
+}
+
+button {
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: whitesmoke;
+}
+
+.colors1 {
+	position: relative;
+	width: 25%;
+	height: 180px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	border-radius: 17px 17px 17px 17px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	background-color: lightcyan;
+}
+
+.colors1:hover {
+	background-color: cyan;
+}
+
+.colors2 {
+	position: relative;
+	width: 25%;
+	height: 180px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	border-radius: 17px 17px 17px 17px;
+	margin-right: 6px;
+	background-color: lightpink;
+}
+
+.colors2:hover {
+	background-color: hotpink;
+}
+
+.colors3 {
+	position: relative;
+	width: 25%;
+	height: 180px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	border-radius: 17px 17px 17px 17px;
+	background-color: lightgreen;
+}
+
+.colors3:hover {
+	background-color: green;
+}
+
+.colors4 {
+	position: relative;
+	width: 25%;
+	height: 180px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	border-radius: 17px 17px 17px 17px;
+	margin-right: 6px;
+	margin-top: 6px;
+	background-color: lightcoral;
+}
+
+.colors4:hover {
+	background-color: red;
+}
+
+.colors5 {
+	position: relative;
+	width: 25%;
+	height: 180px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	border-radius: 17px 17px 17px 17px;
+	margin-right: 6px;
+	background-color: lightyellow;
+}
+
+.colors5:hover {
+	background-color: yellow;
+}
+
+.colors6 {
+	position: relative;
+	width: 25%;
+	height: 180px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	border-radius: 17px 17px 17px 17px;
+	background-color: lightsteelblue;
+}
+
+.colors6:hover {
+	background-color: steelblue;
+}
+
+ .colors1,.colors2,.colors3 {
+   display: inline-block;
+ }
+
+ .colors4,.colors5,.colors6 {
+   display: inline-block;
+ }
+
+ .more {
+ 	align-content: center;
+ 	width: 140px;
+ 	height: 30px;
+ 	border-radius: 12px;
+ 	background-color: mediumpurple;
+ 	color: whitesmoke;
+ 	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+ }
+
+ .more:hover {
+ 	color: black;
+ }
+
+ .last {
+ 	position: relative;
+ 	width: 55%;
+	height: 100px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: purple;
+	border-radius: 17px 17px 17px 17px;
+	background-color: darkblue;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: flex;
+
+ }
+
+ h4 {
+
+ 	position: relative;
+ 	margin-left: 5%;
+ 	margin-top: auto;
+ 	margin-bottom: auto;
+ 	text-align: left;
+	font-family: Helvetica;
+	color: whitesmoke;
+ }
+
+  .lastp {
+
+ 	position: relative;
+ 	margin-left: 10%;
+ 	margin-top: auto;
+ 	margin-bottom: auto;
+ 	text-align: left;
+	font-family: Helvetica;
+	color: whitesmoke;
+ }
+
+
+ .lets {
+ 	position: relative;
+ 	width: 180px;
+ 	height: 30px;
+ 	margin-top: auto;
+ 	margin-bottom: auto;
+ 	margin-left: 5%;
+ 	margin-right: 10%;
+ 	border-radius: 12px;
+ 	background-color: darkblue;
+ 	color: whitesmoke;
+ 	border-style: solid;
+	border-width: 1px;
+	border-color: purple;
+ }
+
+ .lets:hover {
+ 	background-color: mediumpurple;
+ }
+
+
+
+
+ .footer {
+ 	height: 200px;
+ 	background: mediumpurple;
+ }
